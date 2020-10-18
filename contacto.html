@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es" prefix="og: https://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Servicio Técnico Informático" />
+        <meta name="keywords" content="Venado Tuerto, VT, servicio tecnico, PC, computadora, Argentina, informatica">
+        <meta name="author" content="Script Informática" />
+        <!-- ogp facebook -->
+        <meta property='og:title' content='Script Informática' />
+        <meta property='og:description' content='Servicio Técnico Para Tu PC'/>
+        <meta property='og:image' content='https://script-informatica.web.app/assets/img/headerfb.png' />
+        <!-- TW Cards -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@script_vt">
+        <meta name="twitter:url" content="script-informatica.web.app">
+        <meta name="twitter:title" content="Servicio Técnico Informático">
+        <meta name="twitter:description" content="Servicio Técnico Para Tu PC">
+        <meta name="twitter:image" content="https://script-informatica.web.app/assets/img/headerfb.png">
+    <!-- styles -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/stylewhatsapp.css">
+    <link rel="stylesheet" href="css/loader.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
+    <!-- fontawesome -->
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+    <title>Script Informática - Servicio Técnico y Desarrollo Web</title>
+</head>
+<body>
+    
+    <!-- loader -->
+
+    <div id="contenedor_loader">
+        <div class="d-flex justify-content-center align-items-center text-center" id="loader">
+            <img src="assets/img/loader/loader1.gif" class="col-md-12" alt="Cargando...">
+        </div>
+    </div>
+
+    <!-- header -->
+    <header class="site-navbar fixed">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="navbar logo col-6 col-xl-2">
+                    <a class="navbar-brand" href="index.html">
+                      <img src="assets/img/logo.svg" width="80" height="80" alt="logo informatica" loading="lazy">
+                    </a>
+                </div>
+                <div class="col-10 col-md-8 nav-center nav-relative offm">
+                    <nav class= "navbar">
+                        <ul class="ml-au mr-au mb-cero">
+                            <li class="botonera1">
+                                <a href="index.html#services">SERVICIOS</a>
+                            </li>
+                            <li class="botonera1">
+                                <a href="index.html#nosotros">NOSOTROS</a>
+                            </li>
+                            <li class="botonera1">
+                                <a href="index.html#trabajos">TRABAJOS</a>
+                            </li>
+                            <li class="botonera1">
+                                <a href="contacto.html">CONTACTO</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-6 col-xl-2 redes offm">
+                    <div>
+                        <ul class="mb-cero">
+                            <li class="botonera">
+                                <a target="blank" href="https://wa.link/8hr7y2"><i class="fab fa-whatsapp"></i></a>
+                            </li>
+                            <li class="botonera">
+                                <a target="blank" href="https://www.facebook.com/AmadoAbaca99"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li class="botonera">
+                                <a target="blank" href="https://www.instagram.com/script_informatica/?hl=es-la"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li class="botonera">
+                                <a href="mailto:amadoabaca99@gmail.com"><i class="far fa-envelope"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- movile -->
+                <div class= "col-6 offp onm menu" id="main">
+                    <a class="menu-a" onclick="openNav()"><i class="fas fa-bars"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr>   
+    </header>
+
+
+
+    <!-- contact -->
+    <div class="page-section-3 mb-5" id="contact">
+        <div class="services d-flex justify-content-center align-items-center" >Contacto</div>
+        <hr class="hr-section">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mb-5">
+                    <form id="formulario">
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <label class="text-white">Nombre</label>
+                                <input type="text" name="nombre" required="required" class="form-control" id="nombre">
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <label class="text-white">Asunto</label>
+                                <input type="text" name="asunto" required="required" class="form-control" id="asunto">
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <label class="text-white">Mensaje</label>
+                                <textarea name="mensaje" id="mensaje" required="required" cols="30" rows="7" class="form-control" placeholder="Escriba su consulta"></textarea>
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <button type="submit" id="submit" class="btn btn-light"><i class="fab fa-whatsapp"></i> Enviar WhatsApp</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            
+                <div class="col-lg-3 ml-auto contact-right">
+                    <div class="mb-3 mt-0">
+                        <p class="mb-0 contact-title">Ubicación</p>
+                            <a target="_blank" href="https://goo.gl/maps/4p8p6SQg9dM9Vwww8" class="contact-a">
+                            <p class="mb-4 contact-sub">Venado Tuerto, Santa Fé, Argentina</p>
+                            </a>
+                        <p class="mb-0 contact-title">WhatsApp</p>
+                            <a target="_blank" href="https://wa.link/8hr7y2" class="contact-a">
+                            <p class="mb-4 contact-sub">+54 3462 680500</p>
+                            </a>
+                        <p class="mb-0 contact-title">Mail</p>
+                            <a href="mailto:amadoabaca99@gmailcom" class="contact-a">
+                            <p class="mb-0 contact-sub">amadoabaca99@gmail.com</p>
+                            </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- SIDEBAR -->
+
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html#services" onclick="closeNav()">Servicios</a>
+        <a href="index.html#nosotros" onclick="closeNav()">Nosotros</a>
+        <a href="index.html#trabajos" onclick="closeNav()">Trabajos</a>
+        <a href="contacto.html" onclick="closeNav()">Contacto</a>
+        <div class="social-cont">
+            <a target="_blank" href="https://wa.link/8hr7y2" class="social-side"><i class="fab fa-whatsapp"></i></a>
+            <a target="blank" href="https://www.facebook.com/AmadoAbaca99" class="social-side"><i class="fab fa-facebook-f"></i></a>
+            <a target="_blank" href="https://www.instagram.com/script_informatica" class="social-side"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:amadoabaca99@gmail.com" class="social-side"><i class="far fa-envelope"></i></a>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row center">
+                <div class="col-lg-4 text-lg-left text-footer">
+                    Copyright © ScriptInformática 2020
+                </div>
+                <div class="col-lg-4 social d-flex justify-content-center align-items-centers">
+                    <a target="_blank" href="https://wa.link/8hr7y2" class="btn btn-social"><i class="fab fa-whatsapp"></i></a>
+                    <a target="_blank" href="https://www.facebook.com/AmadoAbaca99" class="btn btn-social"><i class="fab fa-facebook-f"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/script_informatica" class="btn btn-social"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    
+    <script src="js/form.js"></script>
+</body>
+</html>

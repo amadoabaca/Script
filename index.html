@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="es" prefix="og: https://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Servicio Técnico Informático" />
+        <meta name="keywords" content="Venado Tuerto, VT, servicio tecnico, PC, computadora, Argentina, informatica">
+        <meta name="author" content="Script Informática" />
+        <!-- ogp facebook -->
+        <meta property='og:title' content='Script Informática' />
+        <meta property='og:description' content='Servicio Técnico Para Tu PC'/>
+        <meta property='og:image' content='https://script-informatica.web.app/assets/img/headerfb.png' />
+        <!-- TW Cards -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@script_vt">
+        <meta name="twitter:url" content="script-informatica.web.app">
+        <meta name="twitter:title" content="Servicio Técnico Informático">
+        <meta name="twitter:description" content="Servicio Técnico Para Tu PC">
+        <meta name="twitter:image" content="https://script-informatica.web.app/assets/img/headerfb.png">
+    <!-- styles -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/stylewhatsapp.css">
+    <link rel="stylesheet" href="css/loader.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
+    <!-- fontawesome -->
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+    <title>Script Informática - Servicio Técnico y Desarrollo Web</title>
+</head>
+<body>
+    
+    <!-- loader -->
+
+    <div id="contenedor_loader">
+        <div class="d-flex justify-content-center align-items-center text-center" id="loader">
+            <img src="assets/img/loader/loader1.gif" class="col-md-12" alt="Cargando...">
+        </div>
+    </div>
+
+    <!-- header -->
+    <header class="site-navbar fixed">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="navbar logo col-6 col-xl-2">
+                    <a class="navbar-brand" href="#">
+                      <img src="assets/img/logo.svg" width="80" height="80" alt="logo informatica" loading="lazy">
+                    </a>
+                </div>
+                <div class="col-10 col-md-8 nav-center nav-relative offm">
+                    <nav class= "navbar">
+                        <ul class="ml-au mr-au mb-cero">
+                            <li class="botonera1">
+                                <a href="#services">SERVICIOS</a>
+                            </li>
+                            <li class="botonera1">
+                                <a href="#planes">PLANES</a>
+                            </li>
+                            <li class="botonera1">
+                                <a href="#nosotros">NOSOTROS</a>
+                            </li>
+                            <li class="botonera1">
+                                <a href="#trabajos">TRABAJOS</a>
+                            </li>
+                            <li class="botonera1">
+                                <a href="contacto.html">CONTACTO</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-6 col-xl-2 redes offm">
+                    <div>
+                        <ul class="mb-cero">
+                            <li class="botonera">
+                                <a target="blank" href="https://wa.link/8hr7y2"><i class="fab fa-whatsapp"></i></a>
+                            </li>
+                            <li class="botonera">
+                                <a target="blank" href="https://www.facebook.com/AmadoAbaca99"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li class="botonera">
+                                <a target="blank" href="https://www.instagram.com/script_informatica/?hl=es-la"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li class="botonera">
+                                <a href="mailto:amadoabaca99@gmail.com"><i class="far fa-envelope"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- movile -->
+                <div class= "col-6 offp onm menu" id="main">
+                    <a class="menu-a" onclick="openNav()"><i class="fas fa-bars"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr>   
+    </header>
+
+
+    <!-- title -->
+    <div class="container main-section">
+        <div class="row align-items-center position-relative">
+            <div class="col-md-12">
+                <div class="main-text">
+                    <h2 class= "title">Soluciones Informáticas</h2>
+                    <div class="mini-cont">
+                        <span class="typed subtitle"></span> 
+                        <div class="btn-main">
+                            <a target="_blank" href="https://wa.link/8hr7y2" class="btn btn-outline-light">Contactanos</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="arrow">
+            <a href="#services" class="down"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </div>
+
+    <!-- services -->
+
+    <div class="page-section mb-5 services-main" id="services">
+        <div class="services d-flex justify-content-center align-items-center" >Servicios</div>
+        <hr class="hr-section">
+        
+        <div class="row cards">
+            
+            <div class="card ">
+                <div class="card-body">
+                <img class="img" src="assets/img/services/1-settings.png" alt="Mantenimiento">
+                <h5 class="card-title">Mantenimiento de Equipos</h5>
+                <p class="card-text">Realizamos mantenimiento completo. Limpieza de hardware, cambio de pasta térmica, formateos y mucho mas.</p>
+                </div>
+            </div>
+
+            <div class="card ">
+                <div class="card-body">
+                <img class="img" src="assets/img/services/2-windows.png" alt="Windows"> 
+                <h5 class="card-title">Instalación de Sistemas Operativos</h5>
+                <p class="card-text">Instalamos Windows, distribuciones de Linux o el sistema que desee para su equipo.</p>
+                </div>
+            </div>
+
+            <div class="card ">
+                <div class="card-body">
+                <img class="img" src="assets/img/services/3-office.png" alt="Windows Office"> 
+                <h5 class="card-title">Instalación de Programas</h5>
+                <p class="card-text">Instalamos el paquete Office, Adobe y los programas que necesite.</p>
+                </div>
+            </div>
+
+            <div class="card ">
+                <div class="card-body">
+                <img class="img" src="assets/img/services/4-web-programming.png" alt="programación web pagina web">
+                <h5 class="card-title">Desarrollo de sitios web</h5>
+                <p class="card-text">Desarrollamos tu sitio web, de ventas o portfolio, responsive y adaptable a diferentes dispositivos.</p>
+                </div>
+            </div>
+
+            <div class="card ">
+                <div class="card-body">
+                <img class="img" src="assets/img/services/5-debit-card.png" alt="tarjeta de crédito">
+                <h5 class="card-title">Sincronización con Mercado Pago y WhatsApp</h5>
+                <p class="card-text">Vendé y ofrecé tus servicios de manera mas profesional integrando Mercado Pago, botón de WhatsApp y otras opciones de contacto.</p>
+                </div>
+            </div>
+
+            <div class="card ">
+                <div class="card-body">
+                <img class="img" src="assets/img/services/6-servers.png" alt="Servidor hosting">
+                <h5 class="card-title">Hosting y dominios personalizados</h5>
+                <p class="card-text">Brindamos un dominio personalisado para tu sitio con extención .com, además de un mail de contacto empresarial y un hosting seguro.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- planes -->
+
+    
+
+    <div class=" page-section-l mb-5 planes-main" id="planes">
+        <div class="services d-flex justify-content-center align-items-center" >Planes</div>
+        <!-- plan 1 -->
+        <span class="sub-plan d-flex justify-content-center align-items-center">Plan para pagina de presentación</span>
+        <hr class="hr-section">
+
+        <div class="row cards">
+            <div class="card border-light card-p">
+                <div class="card-body">
+                <h5 class="card-title">Básico</h5>
+                <p class="price">$3.000</p>
+                <hr>
+                <div class="list">
+                    <ul>
+                        <li>Una página estática</li>
+                        <li>Dos secciones</li>
+                        <li>Responsive</li>
+                        <li>Enlace a redes sociales</li>
+                    </ul>
+                    <a href="contacto.html">
+                        <button class="btn btn-light btn-sm btn-block btn-1">PEDIR PLAN</button>
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <div class="card border-light card-p">
+                <div class="card-body">
+                <h5 class="card-title">Intermedio</h5>
+                <p class="price">$3.500</p>
+                <hr>
+                <div class="list">
+                    <ul>
+                        <li>Una página estática</li>
+                        <li>Cuatro secciones</li>
+                        <li>Responsive</li>
+                        <li>Enlace a redes sociales</li>
+                    </ul>
+                    <a href="contacto.html">
+                        <button class="btn btn-light btn-sm btn-block btn-2">PEDIR PLAN</button>
+                    </a>
+                </div>
+                </div>
+            </div>
+
+            <div class="card border-light card-p">
+                <div class="card-body">
+                <h5 class="card-title">Premium</h5>
+                <p class="price">$4.500</p>
+                <hr>
+                <div class="list">
+                    <ul>
+                        <li>Dos páginas (Inicio - Contacto)</li>
+                        <li>Hasta 8 secciones</li>
+                        <li>Formulario de contacto</li>
+                        <li>Responsive</li>
+                        <li>Enlace a redes sociales</li>
+                    </ul>
+                    <a href="contacto.html">
+                        <button class="btn btn-light btn-sm btn-block btn-3">PEDIR PLAN</button>
+                    </a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- plan2 -->
+
+
+    <div class="page-section planes-main t-online">
+        <span class="sub-plan d-flex justify-content-center align-items-center">Plan para tienda online</span>
+            <hr class="hr-section">
+
+            <div class="row cards">
+                <div class="card border-light card-p">
+                    <div class="card-body">
+                    <h5 class="card-title">Básico</h5>
+                    <p class="price">$7.000</p>
+                    <hr>
+                    <div class="list">
+                        <ul>
+                            <li>Carrito</li>
+                            <li>Envios</li>
+                            <li>Pagos</li>
+                            <li>Dos páginas (Inicio - Productos)</li>
+                            <li>Tres categorías de producto</li>
+                            <li>Responsive</li>
+                            <li>Enlace a redes sociales</li>
+                        </ul>
+                        <div class="t-1">
+                            <a href="contacto.html">
+                                <button class="btn btn-light btn-sm btn-block">PEDIR PLAN</button>
+                            </a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="card border-light card-p">
+                    <div class="card-body">
+                    <h5 class="card-title">Intermedio</h5>
+                    <p class="price">$8.000</p>
+                    <hr>
+                    <div class="list">
+                        <ul>
+                            <li>Carrito</li>
+                            <li>Envios</li>
+                            <li>Pagos</li>
+                            <li>Tres páginas (Inicio - Productos - Contacto)</li>
+                            <li>Pagina de inicio slider</li>
+                            <li>Cinco categorías de producto</li>
+                            <li>Responsive</li>
+                            <li>Formulario de contacto</li>
+                            <li>Enlace a redes sociales</li>
+                        </ul>
+                        <div class="t-2">
+                            <a href="contacto.html">
+                                <button class="btn btn-light btn-sm btn-block">PEDIR PLAN</button>
+                            </a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="card border-light card-p">
+                    <div class="card-body">
+                    <h5 class="card-title">Premium</h5>
+                    <p class="price">$9.500</p>
+                    <hr>
+                    <div class="list">
+                        <ul>
+                            <li>Carrito</li>
+                            <li>Envios</li>
+                            <li>Pagos</li>
+                            <li>Cinco páginas</li>
+                            <li>Buscador</li>
+                            <li>Pagina de inicio slider</li>
+                            <li>Nueve categorías de producto</li>
+                            <li>Responsive</li>
+                            <li>Formulario de contacto</li>
+                            <li>Enlace a redes sociales</li>
+                        </ul>
+                        <div class="t-3">
+                            <a href="contacto.html">
+                                <button class="btn btn-light btn-sm btn-block">PEDIR PLAN</button>
+                            </a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- nosotros -->
+    <div class="page-section-l mb-5" id="nosotros">
+        
+        <div class="nosotros d-flex justify-content-center align-items-center" >Nosotros</div>
+        <hr class="hr-section">
+            <div class="row">
+                <div class="gif-father d-flex justify-content-center align-items-center">
+                    <div class="card border-light card2">
+                        <div class="card-body">
+                        <div class="x"><i class="fas fa-times"></i></div>
+                        <img class="gif d-flex justify-content-start" src="assets/img/about.gif" alt="Nosotros">
+                        </div>
+                    </div>
+                </div>
+                <div class="text-father d-flex align-items-center">
+                    <div class="card card3">
+                        <div class="card-body">
+                            <p class="card-text-2">Este es un pequeño emprendimiento motivado por la pasión a la computación y la tecnología, con el objetivo de brindar el mejor servicio, la mejor atención y de crecer cada día, para poder adentrarnos cada vez mas en el mundo de las tecnologías.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center ubication" itemscope itemtype="http://schema.org/City">
+                <h2 class="ubi-main" itemprop="address">Venado Tuerto</h2>
+                <h3 class="ubi-sub" itemprop="address">Santa Fé, Argentina</h3>
+                <a class="locat" target="_blank" href="https://goo.gl/maps/4p8p6SQg9dM9Vwww8"><i class="fas fa-map-marker-alt"></i></a>
+            </div> 
+        <div class="map" style="-webkit-filter: grayscale(100%); filter: grayscale(100%);">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53078.870040109236!2d-62.007344543672396!3d-33.749568706326485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c864b3247a525d%3A0x98c17493f380fdd2!2sVenado%20Tuerto%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1598911137247!5m2!1ses-419!2sar" 
+            frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </div>
+
+
+    <!-- trabajos -->
+
+    <div class="page-section-2 mb-5 trabajos" id="trabajos">
+        <div class="services d-flex justify-content-center align-items-center" >Trabajos</div>
+        <hr class="hr-section">
+        
+        <div class="row cards">  
+            <div class="card ">
+                <div class="card-body">
+                    <a target="blank" href="https://www.instagram.com/p/CEmc94ZA4CT/?utm_source=ig_web_copy_link">
+                     <img class="img-insta" src="assets/img/insta/carta.png" alt="Instagram Banner, menu online">
+                    </a>
+                </div>
+            </div>
+
+            <div class="card ">
+                <div class="card-body">
+                    <a target="blank" href="https://www.instagram.com/p/CDen0W1g5LI/?utm_source=ig_web_copy_link">
+                        <img class="img-insta" src="assets/img/insta/pc.png" alt="Instagram Banner, reparacion">
+                    </a>
+                </div>
+            </div>
+
+            <div class="card ">
+                <div class="card-body">
+                    <a target="blank" href="https://www.instagram.com/script_informatica">
+                        <img class="img-insta" src="assets/img/insta/sp.png" alt="Instagram Banner, web">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- SIDEBAR -->
+
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#services" onclick="closeNav()">Servicios</a>
+        <a href="#planes" onclick="closeNav()">Planes</a>
+        <a href="#nosotros" onclick="closeNav()">Nosotros</a>
+        <a href="#trabajos" onclick="closeNav()">Trabajos</a>
+        <a href="contacto.html" onclick="closeNav()">Contacto</a>
+        <div class="social-cont">
+            <a target="_blank" href="https://wa.link/8hr7y2" class="social-side"><i class="fab fa-whatsapp"></i></a>
+            <a target="blank" href="https://www.facebook.com/AmadoAbaca99" class="social-side"><i class="fab fa-facebook-f"></i></a>
+            <a target="_blank" href="https://www.instagram.com/script_informatica" class="social-side"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:amadoabaca99@gmail.com" class="social-side"><i class="far fa-envelope"></i></a>
+        </div>
+    </div>
+
+     <!-- whatsapp button -->
+    <div id="float">
+        <a href="https://wa.link/8hr7y2" class="float" target="_blank">
+        <i class="fab fa-whatsapp my-float"></i>
+        </a>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row center">
+                <div class="col-lg-4 text-lg-left text-footer">
+                    Copyright © ScriptInformática 2020
+                </div>
+                <div class="col-lg-4 social d-flex justify-content-center align-items-centers">
+                    <a target="_blank" href="https://wa.link/8hr7y2" class="btn btn-social"><i class="fab fa-whatsapp"></i></a>
+                    <a target="_blank" href="https://www.facebook.com/AmadoAbaca99" class="btn btn-social"><i class="fab fa-facebook-f"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/script_informatica" class="btn btn-social"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
