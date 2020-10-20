@@ -279,13 +279,14 @@ ul{
     line-height: 40px;
 
 }
-.list .btn{
-    margin-top: 50px;
+.planes-main .plan-btn{
     
+    width: 80%;
+    position: absolute !important;
+    bottom: 50px;
+    left: 40px;
 }
-.btn-1, .btn-2{
-    margin-top: 90px !important;
-}
+
 .card-p{
     background: #0e0e0e !important;
     min-height: 550px;
@@ -306,11 +307,8 @@ ul{
     font-size: 20px;
     color: #767676;
 }
-.t-online .card-p{
-    min-height: 800px;
-}
-.t-1{
-    margin-top: 170px;
+.plan-soporte .card-p{
+    min-height: 600px;
 }
 
 
@@ -669,10 +667,10 @@ textarea.form-control {
 }
 @media (max-width: 730px){
     .planes-main .card {
-        width: 60% !important;
+        width: 70% !important;
     }
-    .t-online .card-p{
-        min-height: 650px;
+    .plan-soporte .card-p{
+        min-height: 550px;
     }
 }
 
@@ -698,8 +696,8 @@ textarea.form-control {
         font-weight: 300;
         line-height: 30px;
     }
-    .t-online .card-p{
-        min-height: 600px;
+    .plan-soporte .card-p{
+        min-height: 500px;
     }
 
     .page-section-2 .card{ 
